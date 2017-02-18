@@ -1,7 +1,7 @@
 {
   "name": "bamazon",
   "version": "1.0.0",
-  "description": "Amazon-like storefront built with MySQL and Inquirer npm packages",
+  "description": "Interactive storefront command line app built with MySQL and Inquirer npm packages",
   "main": "bamazonCustomer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

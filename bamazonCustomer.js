@@ -12,23 +12,6 @@ var connection = mysql.createConnection({
  
 connection.connect();
 
-// connection.connect(function(err) {
-//   if (err) throw err;
-//   console.log("connected as id " + connection.threadId);
-// });
-
-// connection.query("SELECT * FROM products", function(err, res) {
-//   if (err) throw err;
-//   console.log('------------------')
-//   console.log('WELCOME TO BAMAZON')
-//   console.log('------------------')
-//   console.log('Please select the Product of your interest:')
-//   for (var i = 0; i < res.length; i++) {
-//     console.log(res[i].id + " | " + res[i].products_name + " | " + res[i].price);
-//   }
-//   console.log("-----------------------------------");
-// });
-
 var display = function() {
   connection.query("SELECT * FROM products", function(err, res) {
     if (err) throw err;
@@ -48,7 +31,7 @@ var display = function() {
         // 'padding-right' : 1,
      }
     });
-    // console.log('Find below our Products List');
+
     for (var i = 0; i < res.length; i++) {
       table.push([res[i].id, res[i].products_name, res[i].price]);
     }
