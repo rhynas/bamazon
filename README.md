@@ -1,7 +1,7 @@
 # Bamazon
 
 ## Synopsis
-***
+
 Interative online storefront / Command line app that take orders from customers and deplete stock from the store's inventory.
 
 #### Customer View 
