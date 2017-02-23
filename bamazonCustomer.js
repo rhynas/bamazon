@@ -67,7 +67,8 @@ var shopping = function(){
           //if db = 0 out of stock
           //if quantity > db show only the quantity that we have
           if (quantity > res[0].stock_quantity) {
-            console.log('We don\'t have this many items');
+            console.log('Our Apologies, we only have ' + res[0].stock_quantity + ' items of the product selected');
+            shopping();
           }
           else{
             console.log('');
