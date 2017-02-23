@@ -8,7 +8,7 @@ Interative online storefront / Command line app that take orders from customers 
 ***
 The Bamazon Customer view allows users to view the current items available for purchase. The user will be prompted to enter the Product id number and how many items they wish to purchase. If the item is in stock, the order will be completed and the user will see the total amount of their purchase.
 
-![demo](/customerView.gif)
+![demo](/assets/images/customerView.gif)
 
 ###Author
 
