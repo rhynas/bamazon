@@ -27,7 +27,7 @@ var display = function() {
       colAligns: ['center', 'left', 'right'],
        style: {
         head: ['blue'],
-        compact: false
+        compact: true
         // 'padding-right' : 1,
      }
     });
