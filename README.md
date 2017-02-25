@@ -19,15 +19,27 @@ To run the customer view use the following command:
 The Bamazon Manager view allows users to view and edit the inventory of the store. The user will be prompted to choose from the following options:
 
 * View products for sale:  the app list every available item including their id's, names, prices, and quantities
+
+![demo](/assets/images/managerView1.gif)
+
 * View low inventory: the app list all items with a inventory count lower than five
+
+![demo](/assets/images/managerView2.gif)
+
 * View departments: the app list every department created
+
+![demo](/assets/images/managerView3.gif)
+
 * Add to inventory: the app display a prompt that will let the manager "add more" of any item currently in the store.
+
+![demo](/assets/images/managerView4.gif)
+
 * Add a new product: the app allow the manager to add a completely new product to the store.
 
-![demo](/assets/images/managerView.gif)
+![demo](/assets/images/managerView5.gif)
 
 To run the Manager view use the following command:
-** node bamazonmanager.js
+* node bamazonmanager.js
 
 ###Author
 
