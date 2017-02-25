@@ -10,9 +10,10 @@ The Bamazon Customer view allows users to view the current items available for p
 
 ![demo](/assets/images/customerView.gif)
 
+```
 To run the customer view use the following command:
 ** node bamazoncustomer.js
-
+```
 
 #### Manager View 
 ***
@@ -38,8 +39,26 @@ The Bamazon Manager view allows users to view and edit the inventory of the stor
 
 ![demo](/assets/images/managerView5.gif)
 
+```
 To run the Manager view use the following command:
 * node bamazonmanager.js
+```
+
+#### Supervisor View 
+***
+The Bamazon Supervisor view allows users to view ta summarized view of their sales. The user will be prompted to choose from the following options:
+
+* View Product Sales by Department
+* View Departments
+* View Sales
+* Create New Department
+
+![demo](/assets/images/supervisorView.gif)
+
+```
+To run the Supervisor view use the following command:
+** node bamazonsupervisor.js
+```
 
 ###Author
 
